@@ -8,7 +8,6 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: '/product-hunt/',
   build: {
-    outDir: '../build',
     sourcemap: true,
   },
   plugins: [react()],
