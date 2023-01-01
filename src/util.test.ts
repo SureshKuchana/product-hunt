@@ -1,11 +1,6 @@
-import { generateVoteCount, sortData } from './util';
+import { sortData } from './util';
 
 describe('test util functions', () => {
-  it('test generate random number', () => {
-    const result = generateVoteCount();
-    expect(typeof result).toBe('number');
-  });
-
   it('test sort the array of the objects', () => {
     const data = [
       {
