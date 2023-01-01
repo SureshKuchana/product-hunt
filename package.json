@@ -6,6 +6,7 @@
   "homepage": "https://github.com/SureshKuchana/product-hunt",
   "scripts": {
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build --base=./",
     "preview": "vite preview",
@@ -34,6 +35,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
     "husky": "^8.0.0",
     "jsdom": "^20.0.3",
     "prettier": "^2.8.0",
